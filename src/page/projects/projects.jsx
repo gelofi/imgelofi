@@ -1,4 +1,9 @@
 import "./projects.css";
+import tenki from "../../assets/tenki.png";
+import kkohi from "../../assets/kko-hi.png";
+import funkn from "../../assets/funkn.png";
+import levelier from "../../assets/levelier.png";
+
 import ProjectCards from "../../common/ProjectCards";
 
 function projects() {
@@ -9,28 +14,28 @@ function projects() {
           <ProjectCards
             name="Tenki"
             desc="A weather information fetcher made in Vite-React."
-            image="/src/assets/tenki.png"
+            image={tenki}
             link="https://gelofi.github.io/tenki"
             alt="Tenki"
           />
           <ProjectCards
             name="Funkn"
             desc="A Discord music bot created in JavaScript."
-            image="/src/assets/funkn.png"
+            image={funkn}
             link="https://github.com/gelofi/funkn"
             alt="Funkn."
           />
           <ProjectCards
             name="Kko-hi"
             desc="A multi-purpose Discord bot created in Java."
-            image="/src/assets/kko-hi.png"
+            image={kkohi}
             link="https://github.com/gelofi/kkohi-jda"
             alt="Kko-hi."
           />
           <ProjectCards
             name="Levelier"
             desc="A level-system Discord bot created in JavaScript."
-            image="/src/assets/levelier.png"
+            image={levelier}
             link="https://github.com/gelofi/Levelier"
             alt="Levelier."
           />
