@@ -1,0 +1,37 @@
+:root {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  --background: linear-gradient(to bottom, #1b0e05, #8c3e1f); /* make it a variable */
+  min-height: 100vh;
+  font-family: "Inter", Helvetica, sans-serif;
+  --color-scheme: dark; /* DARK mode default for this website. */
+  /* theme-dependent color variables: */
+  --text-color: #ffffff;
+}
+
+[data-color-scheme="light"] {
+  color-scheme: light;
+}
+
+/* the DARK theme */
+[data-color-scheme="dark"] {
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  --background: linear-gradient(to bottom, #f6ceb1, #984119); /* make it a variable */
+  --text-color: #252525;
+  --color-scheme: light;
+}
+
+body { /* changes colors when changing theme */
+  background: var(--background);
+  color-scheme: var(--color-scheme);
+  color: var(--text-color);
+}
+
+h1, h2, h3, p, button {
+  font-family: "Host Grotesk", Helvetica, sans-serif;
+}
+
+/* this CSS is mainly for the entire THEME thing, other design stuff is in their respective CSS parts. */
