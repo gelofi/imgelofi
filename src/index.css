@@ -1,7 +1,7 @@
 :root {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  --background: linear-gradient(to bottom, #1b0e05, #8c3e1f); /* make it a variable */
+  --background: linear-gradient(to bottom, #1b050a, #8c491f); /* make it a variable */
   min-height: 100vh;
   font-family: "Inter", Helvetica, sans-serif;
   --color-scheme: dark; /* DARK mode default for this website. */
@@ -19,7 +19,7 @@
 }
 
 [data-theme='light'] {
-  --background: linear-gradient(to bottom, #f6ceb1, #984119); /* make it a variable */
+  --background: linear-gradient(to bottom, #f6c9b1, #c57339); /* make it a variable */
   --text-color: #252525;
   --color-scheme: light;
 }

@@ -12,6 +12,14 @@
     }
 }
 
+.two-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 0px 6% 0px 6%;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .home {
         margin-top: 100%;

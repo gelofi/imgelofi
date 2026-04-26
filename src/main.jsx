@@ -17,7 +17,6 @@ createRoot(document.getElementById('root')).render(
     <ThemeProvider>
       <Navigation />
       <Home/>
-      <Projects/>
     </ThemeProvider>
   </StrictMode>,
 );
