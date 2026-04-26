@@ -3,6 +3,7 @@ import tenki from "../../assets/tenki.png";
 import kkohi from "../../assets/kko-hi.png";
 import funkn from "../../assets/funkn.png";
 import levelier from "../../assets/levelier.png";
+import substack from "../../assets/substack.png";
 
 import ProjectCards from "../../common/ProjectCards";
 
@@ -38,6 +39,13 @@ function projects() {
             image={levelier}
             link="https://github.com/gelofi/Levelier"
             alt="Levelier."
+          />
+          <ProjectCards
+            name="notes from a restless mind"
+            desc="my substack profile, i post my thoughts and feelings there."
+            image={substack}
+            link="https://writeangelo.substack.com/"
+            alt="notes from a restless mind"
           />
         </div>
       </section>
