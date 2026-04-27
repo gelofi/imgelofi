@@ -6,6 +6,7 @@ import kkohi from "../../assets/kko-hi.png";
 import funkn from "../../assets/funkn.png";
 import levelier from "../../assets/levelier.png";
 import substack from "../../assets/substack.png";
+import plotta from "../../assets/plotta.png";
 
 import ProjectCards from "../../common/ProjectCards"; // the project card component builder
 
@@ -48,6 +49,13 @@ function projects() {
             image={substack}
             link="https://writeangelo.substack.com/"
             alt="notes from a restless mind"
+          />
+          <ProjectCards
+            name="Plotta"
+            desc="A Discord bot created in Python to automate plotting with matplotlib."
+            image={plotta}
+            link="https://github.com/gelofi/plotta"
+            alt="Plotta"
           />
         </div>
       </section>
